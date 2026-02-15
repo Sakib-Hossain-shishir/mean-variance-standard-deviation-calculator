@@ -1,3 +1,24 @@
-# Mean-Variance-Standard Deviation Calculator
+# Mean-Variance-Standard-Deviation Calculator
 
-This is the boilerplate for the Mean-Variance-Standard Deviation Calculator project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/mean-variance-standard-deviation-calculator
+A Python project that calculates the **mean**, **variance**, **standard deviation**, **max**, **min**, and **sum** for a 3x3 matrix of numbers. This project demonstrates basic **NumPy** operations and is designed as a practice exercise for FreeCodeCamp's Python curriculum.
+
+---
+
+## Features
+
+- Calculates statistics along **rows** and **columns**.
+- Returns **overall statistics** for the entire matrix.
+- Handles input as a flat list of 9 numbers.
+- Uses **NumPy** for efficient numerical computations.
+
+---
+
+## Usage
+
+Import the `calculate` function and pass a list of 9 numbers:
+
+```python
+from mean_var_std import calculate
+
+result = calculate([0, 1, 2, 3, 4, 5, 6, 7, 8])
+print(result)
