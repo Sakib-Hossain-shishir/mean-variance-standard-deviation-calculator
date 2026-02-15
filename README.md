@@ -11,14 +11,3 @@ A Python project that calculates the **mean**, **variance**, **standard deviatio
 - Handles input as a flat list of 9 numbers.
 - Uses **NumPy** for efficient numerical computations.
 
----
-
-## Usage
-
-Import the `calculate` function and pass a list of 9 numbers:
-
-```python
-from mean_var_std import calculate
-
-result = calculate([0, 1, 2, 3, 4, 5, 6, 7, 8])
-print(result)
